@@ -22,7 +22,7 @@ public abstract class Polinomio{
     public int getGrau(){
         /*for(int i = 0; i < coef.length; i++)
             if(coef[i].doubleValue() != 0)*/
-                return coef.length-1-i;
+                return coef.length-1;//-i;
         /*return 0;*/
         
     }
